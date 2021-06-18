@@ -32,7 +32,10 @@
 - Break the website into different component.
 - 1. Header component 2. Todos component 3. Todo Component
 
-
+## Concepts of Props
+- Pass props in the parameter.
+- What is Props? props is javascript object, that we pass from parent component to child component.
+- In this example we are passing title from parent component from parent to child component using props.
 
 
 

@@ -7,7 +7,7 @@ import {Footer} from "./MyComponents/Footer"
 function App() {
   return (
     <div>
-    <Header/>
+    <Header title="Todos-List"/>
     <Todos/>
     <Footer/>
     </div>
