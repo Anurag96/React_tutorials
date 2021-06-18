@@ -26,6 +26,12 @@
 - class based component
 - function based component
 
+## Requirements
+- We don't wanna NavBar inside the app compoenent
+- App.js will lay the structure for our application.
+- Break the website into different component.
+- 1. Header component 2. Todos component 3. Todo Component
+
 
 
 
