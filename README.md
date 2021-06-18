@@ -36,7 +36,21 @@
 - Pass props in the parameter.
 - What is Props? props is javascript object, that we pass from parent component to child component.
 - In this example we are passing title from parent component from parent to child component using props.
-
+  
+### DefaultProps & PropsType
+  #### Proptype : 
+  - These are used to make code robust.
+  - Used to debug easily.
+  #### Example : 
+      Header.propTypes = {
+        title : PropTypes.string
+      }
+  #### Default-proptype 
+  - When user forget to mention default props, then default props override the value.
+  #### Example : 
+      Header.defaultProps = {
+        title : "You're title is here"
+      }
 
 
 
