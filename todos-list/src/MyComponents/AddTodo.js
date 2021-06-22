@@ -9,7 +9,9 @@ export const AddTodo = ({addTodo}) => {
             alert('Title or description is not defined')
             
         }
-        addTodo(title,desc)
+        else{addTodo(title,desc)
+       setTitle("")
+       setDesc("")}
     }
     return (
         <div className="container my-3">
